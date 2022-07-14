@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCApplication", "MFCApplication\MFCApplication.vcxproj", "{951F282D-F9EE-4B9C-8799-55FFEC0654E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09E5FA0A-7099-4ABE-9657-BD9667BB1EE9} = {09E5FA0A-7099-4ABE-9657-BD9667BB1EE9}
+		{46DF96A6-98DD-44B4-8C9A-5B987F5CC225} = {46DF96A6-98DD-44B4-8C9A-5B987F5CC225}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLibrary", "WpfLibrary\WpfLibrary.csproj", "{46DF96A6-98DD-44B4-8C9A-5B987F5CC225}"
 EndProject
